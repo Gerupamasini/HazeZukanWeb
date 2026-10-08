@@ -1,9 +1,15 @@
-# 干潟図鑑 公式サイト
+# Higata Project
 
-PCブラウザ向けゲーム「干潟図鑑」の公式サイト。2026年11月公開予定。
+Higata Projectの企業サイト。自然や生き物をテーマにしたデジタルコンテンツを紹介しています。
 
-公開用ファイルは `dist/` にあります。Cloudflare Workers の設定は `wrangler.jsonc` です。
+開発プロダクト「干潟図鑑」は2026年11月公開予定のPCブラウザ向けゲームです。
 
-Cloudflare: ビルドコマンド `exit 0`、デプロイコマンド `npx wrangler deploy`、ルートディレクトリ `/`。
+## 公開と更新
 
-今後の更新はこのリポジトリを変更して main に反映します。CloudflareのGit連携が有効なら自動公開されます。
+公開ファイル: dist/
+Cloudflare Workers 設定: wrangler.jsonc
+ビルドコマンド: exit 0
+デプロイコマンド: npx wrangler deploy
+ルートディレクトリ: /
+
+mainへの変更をCloudflareのGit連携で自動公開します。
